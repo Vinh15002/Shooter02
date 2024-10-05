@@ -7,6 +7,7 @@ using UnityEngine.InputSystem;
 public class PlayerSkill : MonoBehaviour
 {
 
+    [SerializeField]
     private GameObject playerGhostPrefab;
 
     [SerializeField]
@@ -61,7 +62,4 @@ public class PlayerSkill : MonoBehaviour
         
     }
 
-    public void OnDuplicate(InputAction.CallbackContext callbackContext){
-       
-    }
 }
