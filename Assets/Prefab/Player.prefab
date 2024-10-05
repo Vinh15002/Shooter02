@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1923391771789973372}
-  - component: {fileID: 4956498201180162630}
   - component: {fileID: 7133740027454636393}
   - component: {fileID: 5478754746720057175}
   - component: {fileID: 4995875337715032905}
@@ -39,33 +38,6 @@ Transform:
   - {fileID: 778848168491388446}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
---- !u!50 &4956498201180162630
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2529839485599765657}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 100000
-  m_LinearDrag: 70
-  m_AngularDrag: 70
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!114 &7133740027454636393
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -81,7 +53,9 @@ MonoBehaviour:
   ScreenBorder: 100
   _rigidbody: {fileID: 0}
   _movementInput: {x: 0, y: 0}
+  _isrunning: 0
   speed: 6
+  isDashing: 0
 --- !u!114 &5478754746720057175
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -301,6 +275,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  OnDamaged:
+    m_PersistentCalls:
+      m_Calls: []
+  GetHealth:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &5320031878597387795
 GameObject:
   m_ObjectHideFlags: 0
