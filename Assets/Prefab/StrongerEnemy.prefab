@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7171976651643691384
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1198304440794387027, guid: c1fb312b70950394dad3f09ce4e85c98, type: 3}
+      propertyPath: _speed
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1198304440794387027, guid: c1fb312b70950394dad3f09ce4e85c98, type: 3}
+      propertyPath: _rotationSpeed
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 1770186119047769121, guid: c1fb312b70950394dad3f09ce4e85c98, type: 3}
+      propertyPath: _rateToDrop
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2528250534254004553, guid: c1fb312b70950394dad3f09ce4e85c98, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2528250534254004553, guid: c1fb312b70950394dad3f09ce4e85c98, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2528250534254004553, guid: c1fb312b70950394dad3f09ce4e85c98, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2528250534254004553, guid: c1fb312b70950394dad3f09ce4e85c98, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2528250534254004553, guid: c1fb312b70950394dad3f09ce4e85c98, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2528250534254004553, guid: c1fb312b70950394dad3f09ce4e85c98, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2528250534254004553, guid: c1fb312b70950394dad3f09ce4e85c98, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2528250534254004553, guid: c1fb312b70950394dad3f09ce4e85c98, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2528250534254004553, guid: c1fb312b70950394dad3f09ce4e85c98, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2528250534254004553, guid: c1fb312b70950394dad3f09ce4e85c98, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2528250534254004553, guid: c1fb312b70950394dad3f09ce4e85c98, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2528250534254004553, guid: c1fb312b70950394dad3f09ce4e85c98, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2528250534254004553, guid: c1fb312b70950394dad3f09ce4e85c98, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3667313802702511124, guid: c1fb312b70950394dad3f09ce4e85c98, type: 3}
+      propertyPath: _killScore
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 4579575461018124521, guid: c1fb312b70950394dad3f09ce4e85c98, type: 3}
+      propertyPath: _playerAwarenessDistance
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5294375492008160496, guid: c1fb312b70950394dad3f09ce4e85c98, type: 3}
+      propertyPath: _damageAmout
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6543085779900782112, guid: c1fb312b70950394dad3f09ce4e85c98, type: 3}
+      propertyPath: flashDuration
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7107794623169707305, guid: c1fb312b70950394dad3f09ce4e85c98, type: 3}
+      propertyPath: m_Name
+      value: StrongerEnemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 8245409737755848163, guid: c1fb312b70950394dad3f09ce4e85c98, type: 3}
+      propertyPath: _maxHealth
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 8245409737755848163, guid: c1fb312b70950394dad3f09ce4e85c98, type: 3}
+      propertyPath: _currentHealth
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 8763749957727468252, guid: c1fb312b70950394dad3f09ce4e85c98, type: 3}
+      propertyPath: m_Mass
+      value: 14
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c1fb312b70950394dad3f09ce4e85c98, type: 3}
